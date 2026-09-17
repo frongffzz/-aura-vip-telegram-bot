@@ -22,8 +22,10 @@ def send_welcome(chat_id):
         "disable_web_page_preview": True,
         "reply_markup": {
             "inline_keyboard": [
-                [{"text": "🌐 เข้าเว็บไซต์ AURA VIP", "url": WEBSITE}],
-                [{"text": "💗 เพิ่ม AURA VIP Emoji", "url": EMOJI}]
+[{"text": "🌐 เข้าเว็บไซต์ AURA VIP", "url": "https://auravip.online"}],
+[{"text": "💎 เข้ากลุ่มแรร์ VIP", "url": "https://t.me/tded7yubb"}],
+[{"text": "💖 รวมงาน N•VIP คัดแล้ว", "url": "https://auravip.online/vip"}]
+]
             ]
         }
     })
